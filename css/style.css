@@ -1221,4 +1221,377 @@ body {
   line-height: 20px;
   padding: 5px 25px;
 }
+
+.s_0007 {
+  position: relative;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  min-height: 800px;
+  background: #1D2024;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s_0007 .img_bg {
+  background: radial-gradient(ellipse farthest-side, rgba(0, 111, 255, 0.15), transparent);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: -15%;
+  bottom: -20%;
+  left: 0;
+  right: 0;
+}
+
+.s_0007 .inner {
+  overflow: hidden;
+  text-align: center;
+}
+
+.s_0007 .inner .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.s_0007 .inner .inner_block {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.s_0007 .inner .inner_block .hero {
+  position: absolute;
+  width: 100%;
+  min-height: 800px;
+  left: 0;
+  top: 0;
+}
+
+.s_0007 .inner .inner_block .hero img {
+  width: 100%;
+  opacity: 1;
+  height: auto;
+  display: block;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img, .s_0007 .inner .inner_block .hero .right .game_img {
+  position: absolute;
+}
+
+.s_0007 .inner .inner_block .hero .game_img:nth-child(1), .s_0007 .inner .inner_block .hero .game_img:nth-child(2), .s_0007 .inner .inner_block .hero .game_img:nth-child(3) {
+  opacity: 0.4;
+  width: 110px;
+  display: block;
+}
+
+.s_0007 .inner .inner_block .hero .game_img:nth-child(4) {
+  width: 130px;
+  display: block;
+}
+
+.s_0007 .inner .inner_block .hero .game_img:nth-child(5), .s_0007 .inner .inner_block .hero .game_img:nth-child(6) {
+  opacity: 0.7;
+  width: 180px;
+}
+
+.s_0007 .inner .inner_block .hero .game_img:nth-child(7), .s_0007 .inner .inner_block .hero .game_img:nth-child(8) {
+  opacity: 0.8;
+  width: 220px;
+}
+
+.s_0007 .inner .inner_block .hero .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 28vw;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(1) {
+  right: -60px;
+  top: 650px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(2) {
+  right: 300px;
+  top: 250px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(3) {
+  right: 300px;
+  top: 500px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(4) {
+  opacity: 0.6;
+  right: -40px;
+  top: 100px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(5) {
+  right: 250px;
+  top: 580px;
+  bottom: auto;
+  left: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(6) {
+  right: 180px;
+  top: 120px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(7) {
+  right: 40px;
+  top: 280px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .left .game_img:nth-child(8) {
+  right: 0;
+  top: 500px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  height: 100%;
+  width: 28vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(1) {
+  left: -60px;
+  top: 650px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(2) {
+  left: 300px;
+  top: 250px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(3) {
+  left: 300px;
+  top: 500px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(4) {
+  left: -40px;
+  top: 100px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(5) {
+  left: 250px;
+  top: 580px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(6) {
+  left: 180px;
+  top: 120px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(7) {
+  left: 40px;
+  top: 280px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .hero .right .game_img:nth-child(8) {
+  left: 0;
+  top: 500px;
+  bottom: auto;
+}
+
+.s_0007 .inner .inner_block .content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.s_0007 .inner .inner_block .content h2 {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+  line-height: 1;
+  color: #fff;
+}
+
+.s_0007 .inner .inner_block .content p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 20px;
+}
+
+.s_0007 .inner .inner_block .content .button_wrapper .btn {
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px 0;
+  color: #2EBFFF;
+}
+
+.s_0007 .inner .inner_block .content .button_wrapper .btn::after {
+  content: "➜";
+  width: 40px;
+  display: inline-block;
+  text-align: left;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .s_0007 .inner .inner_block .hero .left,
+  .s_0007 .inner .inner_block .hero .right {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s_0007 {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    overflow: hidden;
+    min-height: auto;
+  }
+  .s_0007 .inner {
+    overflow: visible;
+  }
+  .s_0007 .inner .inner_block .hero .right {
+    display: none;
+  }
+  .s_0007 .inner .inner_block .hero {
+    position: relative;
+    min-height: 50vw;
+  }
+  .s_0007 .inner .inner_block .hero .left {
+    position: static;
+  }
+  .s_0007 .inner .inner_block .hero .game_img:nth-child(1), .s_0007 .inner .inner_block .hero .game_img:nth-child(2), .s_0007 .inner .inner_block .hero .game_img:nth-child(3) {
+    display: none;
+  }
+  .s_0007 .inner .inner_block .hero .game_img:nth-child(4) {
+    display: none;
+  }
+  .s_0007 .inner .inner_block .hero .left .game_img:nth-child(5) {
+    top: auto;
+    bottom: 0;
+    left: -5vw;
+  }
+  .s_0007 .inner .inner_block .hero .game_img:nth-child(5), .s_0007 .inner .inner_block .hero .game_img:nth-child(6) {
+    width: 25vw;
+    top: 3vw;
+  }
+  .s_0007 .inner .inner_block .hero .game_img:nth-child(7), .s_0007 .inner .inner_block .hero .game_img:nth-child(8) {
+    top: 21vw;
+    opacity: 0.8;
+    width: 30vw;
+  }
+  .s_0007 .inner .inner_block .hero .left .game_img:nth-child(6) {
+    top: 3vw;
+    right: 0;
+  }
+  .s_0007 .inner .inner_block .hero .left .game_img:nth-child(7) {
+    top: 21vw;
+  }
+  .s_0007 .inner .inner_block .hero .left .game_img:nth-child(8) {
+    top: auto;
+    bottom: 5vw;
+    right: -15vw;
+  }
+  .s_0007 .inner .inner_block .content h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .s_0007 .inner .inner_block .content p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .s_0007 .inner .inner_block .content .button_wrapper .btn {
+    font-size: 15px;
+  }
+}
+
+.s_0008 header {
+  background-color: #E2534E;
+}
+
+.s_0008 header .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
